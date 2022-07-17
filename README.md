@@ -75,6 +75,21 @@ console.log("Hello World!")
 
 
 
+### C
+
+```c
+#include <stdio.h>
+
+int main() {
+	int x = 8;
+	int y = 5;
+	printf("%d", x/y);
+	return 0;
+}
+```
+
+
+
 ### C++
 
 ```c++
