@@ -29,11 +29,18 @@ Most of today's computer machine architecture has reached 32 bit and 64 bit. If 
 
 
 
-| Language |      |      |
-| -------- | ---- | ---- |
-| C        | char |      |
-| C++      | char |      |
-|          |      |      |
+| Language |            |                              |       |                     |      |         |      |
+| -------- | ---------- | ---------------------------- | ----- | ------------------- | ---- | ------- | ---- |
+| C        | char       | int                          | float | double              | bool | pointer | void |
+| C++      | char       | short, int, long, long, long | float | double, long double | bool | pointer | void |
+| Go       | byte, rune | int                          | float |                     | bool |         |      |
+| Solidity |            | int                          |       |                     | bool |         |      |
+
+In Go, **there is no char data type**. It uses byte and rune to represent character values. The byte data type represents ASCII characters while the rune data type represents a more broader set of Unicode characters that are encoded in UTF-8 format.
+
+
+
+---
 
 
 
