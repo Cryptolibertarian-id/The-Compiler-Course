@@ -6,6 +6,67 @@
 
 
 
+# Basic Structure
+
+
+
+## Hello World
+
+
+
+### C
+
+```c
+#include <stdio.h>
+
+int main() {
+  printf("Hello World!");
+  return 0;
+}
+```
+
+
+
+### C++
+
+```c++
+#include <iostream>
+
+int main()
+{
+   std::cout << "Hello world!";
+   return 0;
+}
+```
+
+
+
+### Go
+
+```go
+package main
+
+import "fmt"
+
+func main() {
+	fmt.Println("Hello world!")
+}
+```
+
+
+
+### Javascript
+
+```javascript
+console.log("Hello World!")
+```
+
+
+
+----
+
+
+
 # Integer Behaviors
 
 
