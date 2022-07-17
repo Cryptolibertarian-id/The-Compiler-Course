@@ -35,6 +35,28 @@ Output :
 
 
 
+### Go
+
+```go
+package main
+
+import "fmt"
+
+func main() {
+	var result int
+	result = (8 / 5)
+	fmt.Println(result)
+}
+```
+
+Output : 
+
+```
+1 (integer)
+```
+
+
+
 ### Javascript
 
 ```javascript
