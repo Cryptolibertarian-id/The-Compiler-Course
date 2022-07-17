@@ -2,7 +2,38 @@
 
 
 
+# Types
 
+In C++ the size of a given data type is dependent on the compiler and/or the computer architecture. C++ only guarantees that each fundamental data types will have a minimum size. 
+
+When we use **keyword sizeof** in C or C++, a type is determined by the compiler, which doesn't have to have anything to do with the actual hardware (though it typically does); in fact, different compilers on the same machine can have different values for these.
+
+For example in go language, they support implementation specific type. The use of **int** and **uint keywords** will help the compiler to produce code according to the target computer machine architecture. 
+
+This process is called **Implementation Specific Type** or **platform dependent**, the use of int and uint is highly recommended because there are different computer machine architectures (32 & 64 bit). 
+
+If we make a Go program with the data type int then when compiled with the target architecture 32 bit the size of the data type is also 32 bit, so if we compile on a 64 bit architecture the variable size remains 64 bit.
+
+Go also support **Architecture-independent type**, the data bit size does not change even though the program is executed on any computer machine.
+
+Most of today's computer machine architecture has reached 32 bit and 64 bit. If we write a program and it has an int32 data type, its size will remain constant when we execute it on a 64 bit computer machine architecture.
+
+| Language | Type  | Size (32 bit) | Size (64 bit) | Note                     |
+| -------- | ----- | ------------- | ------------- | ------------------------ |
+| C        | int   | 2 bytes       | 4 bytes       | TDM-GCC 10.3.0           |
+| C++      | int   | 2 bytes       | 4 bytes       | TDM-GCC 10.3.0           |
+| Go       | int32 | 4 bytes       | 8 bytes       | Go 1.18.4                |
+| Solidity | int32 | 4 bytes       | 4 bytes       | Solidity Compiler 0.15.0 |
+
+
+
+
+
+| Language |      |      |
+| -------- | ---- | ---- |
+| C        | char |      |
+| C++      | char |      |
+|          |      |      |
 
 
 
