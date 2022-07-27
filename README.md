@@ -44,6 +44,52 @@ In Go, **there is no char data type**. It uses byte and rune to represent charac
 
 
 
+# Execution
+
+
+
+## Rust Compilation
+
+Create directory hello/src and then create hello.rs
+
+```rust
+fn main() {
+	println!("Hello World")
+}
+```
+
+To compile execute this command :
+
+```bash
+$ rustc hello.rs
+```
+
+
+
+---
+
+
+
+## Javascript
+
+Create directory hello/src and then Create file hello.js
+
+```javascript
+console.log("Hello World!")
+```
+
+To Execute the script using node.js :
+
+```bash
+$ node hello.js
+```
+
+
+
+----
+
+
+
 # Basic Structure
 
 
