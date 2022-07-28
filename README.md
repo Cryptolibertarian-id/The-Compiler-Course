@@ -18,12 +18,14 @@
     - C++
     - Rust
     - Go
+    - C#
     - Javascript
     - Python
 - Integer Behaviors
   - Integer Division
     - C
     - C++
+    - C#
     - Rust
     - Go
     - Javascript
@@ -177,6 +179,37 @@ $ rustc hello.rs
 
 
 
+## C# Compilation
+
+Create directory hello/src and then Create file hello.cs
+
+```c#
+namespace HelloWorld
+{
+    class Hello {         
+        static void Main(string[] args)
+        {
+            string hello = "Hello World!";
+            System.Console.WriteLine(hello);
+        }
+    }
+}
+```
+
+To compile execute this command :
+
+```bash
+$ csc hello.cs
+```
+
+
+
+
+
+---
+
+
+
 ## Deno Runtime Engine
 
 Create directory hello/src and then Create file index.ts
@@ -315,6 +348,26 @@ func main() {
 
 
 
+### C#
+
+```c#
+namespace HelloWorld
+{
+    class Hello {         
+        static void Main(string[] args)
+        {
+            System.Console.WriteLine("Hello World!");
+        }
+    }
+}
+```
+
+
+
+---
+
+
+
 ### Javascript
 
 ```javascript
@@ -362,6 +415,10 @@ int main() {
 
 
 
+---
+
+
+
 ### C++
 
 ```c++
@@ -380,6 +437,39 @@ Output :
 ```
 1 (integer)
 ```
+
+
+
+---
+
+
+
+### C#
+
+```c#
+namespace Arithmetic
+{
+    class Division {         
+        static void Main(string[] args)
+        {
+            int x = 8;
+	    int y = 5;
+	    int result = x/y;
+            System.Console.WriteLine(result);
+        }
+    }
+}
+```
+
+Output : 
+
+```
+1 (integer)
+```
+
+
+
+---
 
 
 
