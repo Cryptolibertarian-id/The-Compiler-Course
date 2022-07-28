@@ -4,10 +4,14 @@
 
 # Table of Contents
 
+- Types
 - Execution
+  - C Compilation
+  - C++ Compilation
   - Rust Compilation
   - Deno Runtime Engine
   - Node.js Runtime Engine
+  - Python Interpreter
 - Basic Structure
   - Hello World
     - C
@@ -15,6 +19,7 @@
     - Rust
     - Go
     - Javascript
+    - Python
 - Integer Behaviors
   - Integer Division
     - C
@@ -99,6 +104,57 @@ In Go, **there is no char data type**. It uses byte and rune to represent charac
 
 
 
+## C Compilation
+
+Create directory src/hello and then create main.c
+
+```c
+#include <stdio.h>
+
+int main() {
+  printf("Hello World!");
+  return 0;
+}
+```
+
+To compile execute this command :
+
+```bash
+$ gcc main.c -o hello.exe
+```
+
+
+
+---
+
+
+
+## C++ Compilation
+
+Create directory src/hello and then create main.cpp
+
+```c
+#include <iostream>
+
+int main()
+{
+   std::cout << "Hello world!";
+   return 0;
+}
+```
+
+To compile execute this command :
+
+```bash
+$ g++ main.cpp -o hello.exe
+```
+
+
+
+---
+
+
+
 ## Rust Compilation
 
 Create directory hello/src and then create hello.rs
@@ -155,6 +211,28 @@ To Execute the script using node.js, follow this command :
 ```bash
 $ node hello.js
 ```
+
+
+
+---
+
+
+
+## Python Interpreter
+
+Create directory src/hello and then Create file hello.py
+
+```javascript
+print("Hello World!")
+```
+
+To Execute the script using node.js, follow this command :
+
+```bash
+$ python hello.py
+```
+
+
 
 
 
@@ -241,6 +319,18 @@ func main() {
 
 ```javascript
 console.log("Hello World!")
+```
+
+
+
+---
+
+
+
+### Python
+
+```python
+print("Hello World!")
 ```
 
 
