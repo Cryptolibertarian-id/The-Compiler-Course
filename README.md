@@ -2,6 +2,57 @@
 
 
 
+# Table of Contents
+
+- Execution
+  - Rust Compilation
+  - Deno Runtime Engine
+  - Node.js Runtime Engine
+- Basic Structure
+  - Hello World
+    - C
+    - C++
+    - Rust
+    - Go
+    - Javascript
+- Integer Behaviors
+  - Integer Division
+    - C
+    - C++
+    - Rust
+    - Go
+    - Javascript
+
+
+
+----
+
+
+
+# Header
+
+Last touched on 28 July 2022
+
+
+
+
+
+---
+
+
+
+## Resources
+
+
+
+
+
+---
+
+
+
+
+
 # Types
 
 In C++ the size of a given data type is dependent on the compiler and/or the computer architecture. C++ only guarantees that each fundamental data types will have a minimum size. 
@@ -70,7 +121,28 @@ $ rustc hello.rs
 
 
 
-## Javascript
+## Deno Runtime Engine
+
+Create directory hello/src and then Create file index.ts
+
+```typescript
+let myName: string = "Gun Gun Febrianza";
+console.log(myName);
+```
+
+To Execute the script using deno, follow this command :
+
+```bash
+$ deno run index.ts
+```
+
+
+
+---
+
+
+
+## Node.js Runtime Engine
 
 Create directory hello/src and then Create file hello.js
 
@@ -78,7 +150,7 @@ Create directory hello/src and then Create file hello.js
 console.log("Hello World!")
 ```
 
-To Execute the script using node.js :
+To Execute the script using node.js, follow this command :
 
 ```bash
 $ node hello.js
@@ -111,6 +183,10 @@ int main() {
 
 
 
+---
+
+
+
 ### C++
 
 ```c++
@@ -125,6 +201,24 @@ int main()
 
 
 
+---
+
+
+
+### Rust
+
+```rust
+fn main (){
+    println!("Hello World!");
+}
+```
+
+
+
+---
+
+
+
 ### Go
 
 ```go
@@ -136,6 +230,10 @@ func main() {
 	fmt.Println("Hello world!")
 }
 ```
+
+
+
+---
 
 
 
