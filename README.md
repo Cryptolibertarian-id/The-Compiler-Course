@@ -62,6 +62,8 @@ Last touched on 28 July 2022
 
 # Types
 
+The Type System represents the different types of values supported by the language. Type checking operation will happen before data stored or manipulated.
+
 In C++ the size of a given data type is dependent on the compiler and/or the computer architecture. C++ only guarantees that each fundamental data types will have a minimum size. 
 
 When we use **keyword sizeof** in C or C++, a type is determined by the compiler, which doesn't have to have anything to do with the actual hardware (though it typically does); in fact, different compilers on the same machine can have different values for these.
@@ -392,6 +394,24 @@ print("Hello World!")
 
 
 
+### Solidity
+
+```solidity
+string message = "Hello World, Mother";
+
+function getMessage() public view returns (string memory) {
+	return message;
+}
+```
+
+
+
+
+
+----
+
+
+
 # Integer Behaviors
 
 
@@ -507,5 +527,24 @@ Output :
 
 ```
 1.6 (number)
+```
+
+
+
+### Solidity
+
+```solidity
+int myint1 = 3;
+int myint2 = 2;
+
+function calculate() public view returns (int) {
+	return myint1/myint2;
+}
+```
+
+Output : 
+
+```
+1 (number)
 ```
 
