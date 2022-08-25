@@ -21,6 +21,7 @@
     - C#
     - Javascript
     - Python
+    - Solidity
 - Integer Behaviors
   - Integer Division
     - C
@@ -29,6 +30,7 @@
     - Rust
     - Go
     - Javascript
+    - Solidity
 
 
 
